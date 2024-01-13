@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: scruz-ra <scruz-ra@student.42.fr>          +#+  +:+       +#+        */
+/*   By: scruz-ra <scruz-ra@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 22:23:41 by scruz-ra          #+#    #+#             */
-/*   Updated: 2023/09/29 00:30:07 by scruz-ra         ###   ########.fr       */
+/*   Updated: 2023/11/15 03:04:18 by scruz-ra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
-	char	*s;
 	size_t	c;
 	size_t	result;
 	size_t	dst_len;
@@ -23,7 +22,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	c = 0;
 	dst_len = ft_strlen(dst);
 	src_len = ft_strlen(src);
-	s = (char *)src;
 	if (dstsize > dst_len)
 	{
 		result = src_len + dst_len;

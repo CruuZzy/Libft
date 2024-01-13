@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: scruz-ra <scruz-ra@student.42.fr>          +#+  +:+       +#+        */
+/*   By: scruz-ra <scruz-ra@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 20:43:44 by scruz-ra          #+#    #+#             */
-/*   Updated: 2023/10/07 19:23:54 by scruz-ra         ###   ########.fr       */
+/*   Updated: 2023/11/15 03:04:02 by scruz-ra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
